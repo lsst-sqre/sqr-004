@@ -1,5 +1,7 @@
-This is a HOWTO contributed by an AAS/WGAS publication hackday
-describing how to use the CoMPASS workflow to have materials from a
+.. image:: _static/logo.png
+
+This is a proposed HOWTO contributed by an AAS/WGAS taskforce
+describing how might use the CoMPASS workflow to have materials from a
 conference or workshop published as a volume of the virtual Conference
 & Meeting Proceedings of the AAS journal, including obtaining DoIs and
 ADS indexing for citation. It will eventually transition out of this
@@ -21,11 +23,16 @@ basis.
 In late 2015, AAS and its Working Group on Astromical Software (WGAS)
 organised a taskforce to develop a process to have meeting proceedings
 easily converted into a virtual proceedings volume indexed by the
-Astrophyics Data System (ADS). 
+Astrophyics Data System (ADS).
+
+If such a process were to be adopted, the AAS would guarantee the
+preservation of these virtual proceedings. This document covers the
+current implementation details, but these might substantially change
+in the future. 
 
 
-Workflow
-========
+Workflows
+=========
 
 There are three principle actors in this workflow.
 
@@ -43,7 +50,8 @@ While artifacts that come out of a conference presentation are varied,
 in this document we use three representational examples:
 
 talk
-   A presentation where there are multiple source materials, 
+   A presentation where there are multiple source materials, such as a
+   video of the talk, and a slide presentation. 
 
 poster
    A presentation where there is a single source material but perhaps
@@ -57,7 +65,14 @@ paper
    artifact.
 
 
+The following sections describe how publishing the virtual proceedings
+for an imaginary Second Workshop on Wormholes. 
 
+Poster
+======
+
+.. image:: _static/workflow_poster.png
+   :alt: Poster workflow
 
 
 
